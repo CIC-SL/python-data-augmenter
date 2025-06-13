@@ -1,6 +1,7 @@
 from augmenter.document_chunker import DocumentChunker
 from augmenter.augmentation import DatasetAugmenter, OpenAIAugmenter
 import os
+import certifi
 
 ## Loading the dataset
 # chunk_size: size of the chunk to be processed
