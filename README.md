@@ -1,10 +1,10 @@
-![Data Augmenter Banner](https://github.com/CIC-SL/python-data-augmenter/blob/main/docs/media/slim_banner.png)
+![Data Augmenter Banner](https://github.com/CIC-SL/python-data-augmenter/blob/main/docs/media/slim_banner.png?raw=true)
 
 ---
 
 # Data Augmenter
 
-[![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/CIC-SL/python-data-augmenter/blob/main/LICENSE) [![PyPI Latest Release](https://img.shields.io/pypi/v/python-data-augmenter.svg)](https://pypi.org/project/python-data-augmenter/) [![PyPI Downloads](https://img.shields.io/pypi/dm/python-data-augmenter.svg?label=PyPI%20downloads)](https://pypi.org/project/python-data-augmenter/) [![Last commit](https://img.shields.io/github/last-commit/CIC-SL/python-data-augmenter.svg)](https://github.com/CIC-SL/python-data-augmenter/commits/main) [![Contributors](https://img.shields.io/github/contributors/CIC-SL/python-data-augmenter.svg)](https://github.com/CIC-SL/python-data-augmenter/graphs/contributors) [![Coverage](https://codecov.io/github/CIC-SL/python-data-augmenter/coverage.svg?branch=main)](https://codecov.io/gh/CIC-SL/python-data-augmenter)
+[![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/CIC-SL/python-data-augmenter/blob/main/LICENSE) [![Supported Python Versions](https://img.shields.io/pypi/pyversions/python-data-augmenter.svg)](https://pypi.org/project/python-data-augmenter/) [![PyPI Latest Release](https://img.shields.io/pypi/v/python-data-augmenter.svg)](https://pypi.org/project/python-data-augmenter/) [![Last commit](https://img.shields.io/github/last-commit/CIC-SL/python-data-augmenter.svg)](https://github.com/CIC-SL/python-data-augmenter/commits/main) [![Contributors](https://img.shields.io/github/contributors/CIC-SL/python-data-augmenter.svg)](https://github.com/CIC-SL/python-data-augmenter/graphs/contributors) [![Issues](https://img.shields.io/github/issues/CIC-SL/python-data-augmenter.svg)](https://github.com/CIC-SL/python-data-augmenter/issues)
 
 Data Augmenter has been created to take advantage of the potential of foundational models by allowing us to generate new data from a small sample. Thanks to Data Augmenter we will be able to increase the size of our datasets by including variability in the data. In addition, we can extract structured datasets ready for fine-tuning of unstructured information.
 
