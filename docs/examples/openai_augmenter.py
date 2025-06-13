@@ -1,6 +1,7 @@
 from augmenter.document_chunker import DocumentChunker
 from augmenter.augmentation import DatasetAugmenter, OpenAIAugmenter
 import os
+import certifi
 
 ## Loading the dataset
 # chunk_size: size of the chunk to be processed
@@ -66,7 +67,11 @@ params = {
 }
 
 ## Initializing the augmenter with the parameters and OpenAI API key
-augmenter = OpenAIAugmenter(params=params, api_key=os.getenv("OPENAI_API_KEY"))
+api_key=os.getenv("OPENAI_API_KEY")
+# Reset certificate settings if incorrect
+if not os.path.exists(os.environ.get("SSL_CERT_FILE", "")):
+    os.environ["SSL_CERT_FILE"] = certifi.where()
+augmenter = OpenAIAugmenter(params=params, api_key=api_key)
 
 ## Initializing the DatasetAugmenter with the augmenter and dataset
 dataset_augmenter = DatasetAugmenter(augmenter=augmenter, dataset=dataset)
