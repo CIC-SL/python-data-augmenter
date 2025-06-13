@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "python-data-augmenter"
-version = "0.0.3"
+version = "0.0.4"
 description = "This library provides a set of tools for data augmentation, including text generation, data processing, and integration with multiple AI providers."
 readme = "README.md"
 authors = [{ name = "Marcos Cobo Carrillo", email = "mcobo@cic.es" }]
