@@ -33,11 +33,6 @@ It is recommended to use conda environments to manage and install dependencies, 
    pip install python-data-augmenter
    ```
 
-   or conda:
-   ```
-   conda install python-data-augmenter
-   ```
-
    At this point Data Augmenter is ready to use.
 
 ## Modules
